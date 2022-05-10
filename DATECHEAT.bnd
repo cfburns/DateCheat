@@ -1,0 +1,5 @@
+
+             STRPGMEXP  SIGNATURE('DATECHEAT')
+             EXPORT     SYMBOL('@DATE')
+             ENDPGMEXP
+
