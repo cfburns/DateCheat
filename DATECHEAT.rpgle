@@ -14,6 +14,8 @@
 
        if %parms = 0;
          return %date();
+       elseif %parms = 1;
+         return *loval;
        elseif %upper(InFormat) = @YMD;
          WorkISO = %date(InDate : *YMD);
        elseif %upper(InFormat) = @MDY;
